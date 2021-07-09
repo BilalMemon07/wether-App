@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head_links}}
+</head>
+<body>
+    {{!-- navbar  --}}
+{{>navbar}}
+
+ <div class="container-fluid main_hader">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left Side header  -->
+            <div class="col-md-12 col-10 main_header_left align-items-center ">
+              <figure>
+                <img
+                  src="./images/404error.jpg"
+                  class="img-fluid"
+                  width="250px"
+                  title="error page"
+                  alt="Error Image"
+                />
+              </figure>
+              <p>Welcome to <span> Memon</span> Tecnical World</p>
+              <h1>{{errorMes}}</h1>
+             <a href="/">
+             <button>Home</button>
+             </a> 
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+{{>footer}}
+</body>
+    {{>footer_links}}
+</html>
